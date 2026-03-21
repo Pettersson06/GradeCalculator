@@ -15,6 +15,7 @@ public class Main {
       total = total + grades[i];
     }
     double average = total / numGrades;
+    System.out.println("You entered " + total + " grades!");
     System.out.println(average + " is your grade average!");
     if (average < 4.5) {
       System.out.println("You passed the class!");
